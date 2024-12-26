@@ -3,7 +3,7 @@ def main():
     wordlist = wordlist_file.readline()[:-1].split(" ")
     wordlist_file.close()
     p_l, c_l, w_l = set({}), set({}), set({})
-    c = "adieu"
+    c = "salet"
     print("'.' for wrong, 'c' for misplaced, 'x' for correct, hit return to skip word")
     while True:
         print(f"Guess: \n  {c}")
